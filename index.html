@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"></head>
+
+<body>
+
+  
+  <section>
+    <img  height="100px"id="pos" src="hrey.png">
+    <img id="content" height="140px" width="40%" src="picturetopeople.org-c02b1db25d03efa8c44ba4aa6817fdcec8354122edc76266f4.png">
+  </section>
+  <nav id="hello">
+    <div id="nav">
+            <h1>Varshith Reddy</h1>
+            <table align="right">
+                <tr>
+                  <pre><td><a href="#imgdiv" >Home</a>  </td>  
+                    <td><a href="#abt">About Me</a>  </td>  
+                    <td><a href="#wf">My Projects</a>  </td>  
+                    <td><a href="#team">Services</a>  </td>
+                    <td><a href="">Contact</a>   </td>
+                </tr>
+            </table>
+        </div>
+</nav>
+        <div>
+          <h3  class="headers">
+            __Get Into My Mind__
+          </h3>
+          <div class="divs">
+            <h4>
+              "Even Database Doesn't treat you as a Candidate if you are Dependent,How would You 
+              Think Life Does???"
+            </h4>
+            <p>
+              Hi,My name is Varshith.Iam 19 and  an obvious UG , with my tinny Experience in Life 
+              i learned lot of things and gone through plenty and all those resulted in my Unbrekable
+              positive Mindset.
+        
+            </p>
+              <strong>"As we Write Code:--> import 'positiveness.class';"</strong>
+            <p>
+              Virat says "There is no Point putting So much into onething and Not having the Desire
+              to be the Best!" and this is what that hit me hard and I try to give my 100% in
+              everything I do...Even if it doesnt mean directly to you in future and even if i fail 
+              giving 100% ,I understand that my volume wasn't enough and thats where Your consistency
+              and Getting better Every day matters a lot.
+          
+            </p>
+            <p>
+              Fortunately,I have an Awesome friends circle since KG and to be honest i Belive Iam the 
+              Luckiest One to have those Who made my life Lot happier.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3  class="headers">
+            __Services__
+          </h3>
+          <div class="divs">
+              <ul>
+                <li>
+                  <h4>Android Application Development from Simple to Complex projects.  </h4>
+                  <p>I developed 25+ Android apps which are Simple to complex ie dice roller to Cloning 
+                    INSTAGRAM ,and there will be no compromise in UI design aswell And <strong>
+                      I would Do it for Free if it is for Any Trust Organizations.
+                    </strong>
+                  </p>
+                </li>
+                <li>
+                  <h4>
+                    Profesional and Trending UI for Web and Mobile Apps.
+                  </h4>
+                  <p>
+                    I feel UI is the only thing that customer Judges a Product on and I design Creative 
+                    and Easy Access UI following Desgin Rules specified  by SE.
+                  </p>
+                </li>
+                <li>
+                  <strong>For Futher Details and preview my Projects <a>PROJECTS</a></strong>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="footers">
+          
+            
+                
+                
+            </div>
+            
+        </div>
+</body>
+<!-- script -->
+
+
+  <script>
+     addEventListener(window.onscroll);
+     $(document).ready(function(){
+          
+          $(window).scroll(function(){
+
+            if($(window).scrollTop()>300){
+            // var el= document.getElementById('hello');
+            var el= document.getElementById('nav');
+              
+             el.style.setProperty('display','none');
+           //el.style.display="block";
+             // $("nav").css("background-color","blue");
+            }else{
+              
+            }
+
+          });
+
+     });
+
+  </script>
+ 
+
+
+<!-- style -->
+<style>
+    
+    
+    nav{
+      position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+    clear: both;
+    margin-top:-15px;
+    background-color: #EAF0F1;
+    padding:0px 20px;
+    height: 100px;
+    border-color: black;
+    border-width: 2px;
+    box-shadow:0 2px 2px -2px rgba(0,0,0,.9);
+  }
+ 
+
+  section{
+    background-image: url(me.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-bottom:0%;
+  }
+  .box{
+    margin-top: 20px;
+    height: 1000px;
+  }
+
+  nav li a:hover{
+    background: red;
+  }
+</style>
+</html>
